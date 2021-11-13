@@ -135,4 +135,4 @@ async def get_bank_data():
         users = json.load(f)
     return users
 
-bot.run('OTA4MjU4NzgxMzA0MDc0Mjcx.YYzH6A.Eb_41lxyIgzmPQWonXUxpe9MPGw')
+bot.run()
