@@ -37,7 +37,7 @@ async def on_command_error(ctx, error):
         if ctx.command.qualified_name == 'lottry':
             await ctx.send('!!lottry [spent money]\nif you spent under 100wls your money will x8 but if you spent more than 100wls your money will x3')
         if ctx.command.qualified_name == 'balppl':
-            await ctx.send('!!lottry [@person]')
+            await ctx.send('!!balppl [@person]')
     if isinstance(error, commands.CommandOnCooldown):
         if ctx.command.qualified_name == 'work':
             await ctx.send('You can work again 1d from now!')
